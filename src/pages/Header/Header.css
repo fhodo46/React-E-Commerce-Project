@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+.nav__logo,
+.nav__link,
+.dropdown__link {
+  /*Links of the header should not be underlined*/
+  text-decoration: none;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: cursive;
+  font-size: 15px;
+  z-index: 1;
+}
+
+
+.headercontainer {
+  /*How what is below "Contact Us", "Quick Links", "Opening Hours" and "Follow Us" should appear*/
+  display: flex;
+  justify-content: center;
+  max-width: 1020px;
+  margin-left: 203px;
+}
+
+.nav {
+  color: white;
+  background-color: black;
+  height: 5.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  color: white;
+  margin-inline: 100px;
+  /*Space between "Zet Cartopia" and home*/
+}
+
+.nav__data {
+  /*The container that has the "Company" text */
+  height: 100%;
+  display: flex;
+}
+
+.nav__data i {
+  /*Space between planet sign and the company*/
+  margin-inline: 10px;
+}
+
+.nav__logo {
+  /*Zet Cartopia*/
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  /*The link part Home, Dashboard etc without the "Zet Cartopia" */
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  justify-content: initial;
+  column-gap: .25rem;
+}
+
+
+
+.dropdown__arrow {
+  font-size: 1.25rem;
+  font-weight: initial;
+  transition: transform .4s;
+}
+
+.dropdown__link {
+  /*The icon and what is written when one hovers the dropdown menu*/
+  padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  transition: background-color .3s;
+  padding-inline: 1rem 3.5rem;
+}
+
+
+
+
+.dropdown__link:hover {
+  background-color: gray;
+}
+
+.dropdown__menu {
+  /*Before hovering the dropdown menu*/
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .4s ease-out;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+  position: absolute;
+  opacity: 0;
+}
+
+.dropdown__item:hover .dropdown__menu {
+  /*What will be shown when the menus that have submenus will be hovered*/
+  max-height: 190px;
+  opacity: 1;
+  top: 5.5rem;
+  pointer-events: initial;
+  transition: top .3s;
+}
+
+.dropdown__item:hover .dropdown__arrow {
+  /*The arrow will go from down-up*/
+  transform: rotate(180deg);
+}
+
+
+
+
+.nav__list {
+  /*How "Home", "Dashboard", etc are placed one another*/
+  height: 100%;
+  display: flex;
+  column-gap: 3rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

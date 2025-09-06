@@ -1,0 +1,160 @@
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 2
+}
+
+.faqbgimg2 {
+  height: 100%;
+  background-size: cover;
+  background-image: url("C:\Users\DELL\Desktop\ProductFolder\product\src\assets\faqprojectphoto.png")
+}
+
+.faqtitle {
+  text-align: center;
+  font-size: 3em;
+  margin: 1em;
+}
+
+/* Text "FAQ" for the 6 questions */
+
+.faqsection {
+  padding: 4em 2em;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Positioning of the background image and its contents */
+
+.faq {
+  list-style: none;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* How the group of the 6 questions should appear */
+
+.faq li {
+  background: #f2f2f2;
+  border-bottom: 1px #ccc solid;
+}
+
+/* How each of the 6 questions should appear */
+.faqquestion {
+  padding: 1em 0;
+  border-left: 10px #f2f2f2 solid;
+  cursor: pointer;
+}
+
+.faqquestion:hover {
+  border-left-color: #0569ff
+}
+
+.faq p {
+  color: #888;
+  line-height: 25px;
+}
+
+.faqshiftright {
+  margin-left: 10px;
+}
+
+.faqanswer {
+  overflow: hidden;
+  height: 20;
+  text-align: center;
+  width: 600px;
+  margin-left: 20px;
+  padding: 0;
+}
+
+h1 {
+  font-size: 36px
+}
+
+h2 {
+  font-size: 30px
+}
+
+h1,
+h2 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.faqwide {
+  letter-spacing: 4px
+}
+
+/* The spacing of "Wishing you a nice shopping experience!" */
+
+
+
+
+.faqcontainer:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+/* How the "Wishing you a nice shopping experience" should appear*/
+.faqhalf {
+  float: left;
+  width: 41%;
+  margin-left: 59px;
+}
+
+/* "Legal" and "Other" half blocks */
+
+.faqcontent {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px
+}
+
+/* The first block "FAQ+ Terms/Conditions" and
+   "Terms and Conditions"  */
+
+.faqlarge {
+  font-size: 18px
+}
+
+.faqcenter {
+  text-align: center
+}
+
+.faqpadding64 {
+  padding-top: 64px;
+  padding-bottom: 64px
+}
+
+.faqblack {
+  color: black;
+}
+
+/* The hrefs "FAQ/ Terms and Conditions" */
+.faqpalered {
+  color: black;
+  background-color: #ffdddd
+}
+
+/* "FAQ+ Terms/Conditions" and "Terms and Conditions" */
+
+
+
+
+
+
+.faqgeneralintroduction {
+  width: 38%;
+  margin-left: 300.5px;
+}
+
+/* "Although we would like that" */

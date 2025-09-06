@@ -1,0 +1,231 @@
+.financialdetails-theme {
+    color: #fff;
+    background-color: #000000
+}
+
+/*Color of the texts and the background color for
+"Shipping Details Based On Country" , "Currency Exchange Tab" first column and "Country addresses" first column*/
+.financialdetails-text-theme {
+    color: #000000
+}
+
+/*Color of the icons that are on the first three columns*/
+.financialdetails {
+    background-color: white;
+}
+
+.financialdetails-third,
+.financialdetails-half {
+    box-sizing: border-box;
+    float: left;
+}
+
+/*financialdetails-third is for every division of three
+columns, and half is for those of two*/
+
+header {
+    display: block
+}
+
+/*How the divisions inside the header tag should appear*/
+
+
+button {
+    font: inherit;
+    margin: 0;
+}
+
+/*Font like the whole page it is for the last three buttons "Albania" */
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0
+}
+
+.financialdetails-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/*How the table should look like*/
+
+.financialdetails-bordered tr {
+    border-bottom: 1px solid #ddd
+}
+
+/*The line that separates the rows of the table*/
+
+.financialdetails-table td,
+.financialdetails-table th {
+    padding: 8px 8px;
+    text-align: left;
+}
+
+/*How the first row (table header) and all the content in the other table rows should appear*/
+.financialdetails-table th:first-child,
+.financialdetails-table td:first-child {
+    padding-left: 59px
+}
+
+/*Shifting these to the right; if you do it for the first one all others move too*/
+
+.financialdetails-button {
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.financialdetails-ul {
+    padding: 0;
+    margin: 0
+}
+
+/*Questions in FAQ and information on "Shipping Details Based On Country" how they should appear*/
+.financialdetails-ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    list-style-type: none;
+}
+
+.financialdetails-bar {
+    width: 100%;
+    float: left;
+}
+
+/*The bar that has the three buttons*/
+.financialdetails-bar .financialdetails-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+}
+
+/*The content that is below each of the three buttons*/
+
+.financialdetails-third {
+    width: 33.33333%
+}
+
+.financialdetails-half {
+    width: 49.99999%
+}
+
+.financialdetails-row-padding>.financialdetails-half,
+.financialdetails-row-padding>.financialdetails-third {
+    padding: 19px 8px
+}
+
+/*The three sections below "Our Benefits", "More Questions" and the three cards below "More Questions"*/
+
+.financialdetails-container {
+    padding: 0.01em 16px
+}
+
+/*The text of the three blocks below "More Questions" */
+.financialdetails-card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.financialdetails-card-3 {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+.financialdetails-animate-opacity {
+    animation: opac 0.8s
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.financialdetails-large {
+    font-size: 18px
+}
+
+/**/
+
+.financialdetails-center {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.financialdetails-padding {
+    padding: 8px 16px;
+}
+
+/*"Our Procedure" */
+.financialdetails-padding-16 {
+    padding-top: 16px;
+    padding-bottom: 16px
+}
+
+/**/
+
+.financialdetails-button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+/*Colors of this page*/
+.financialdetails-blue-grey {
+    color: #fff;
+    background-color: #607d8b
+}
+
+.financialdetails-indigo {
+    color: #fff;
+    background-color: #3f51b5
+}
+
+.financialdetails-white {
+    color: #000;
+    background-color: #fff;
+}
+
+.financialdetails-dark-grey {
+    color: #fff;
+    background-color: #616161;
+}
+
+.hrfinancialdetails {
+    height: 3px;
+    color: gray;
+    background-color: gray
+}
+
+/*The bottom line of "Payment Methods &Delivery*/

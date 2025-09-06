@@ -1,0 +1,163 @@
+.registerbodyclass, body {
+  background-image:url('https://static.vecteezy.com/system/resources/previews/011/220/317/non_2x/e-commerce-banner-design-on-light-blue-background-the-icons-are-collected-in-a-honeycomb-like-module-illustration-vector.jpg');
+  font-family:"Lato",Arial,sans-serif;
+  font-size:16px;
+  line-height:1.8;
+  height:819px;
+}
+h3 {
+  margin-top:0;
+}
+a {
+  color:gray;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:none;
+}
+input,button {
+  font-family:inherit;
+}
+h2,.h2 {
+  font-size:2rem;
+}
+h3,.h3 {
+  font-size:1.75rem;
+}
+.container {
+  /* for both parts */  
+  max-width:1140px;
+  width:100%;
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.row {
+  display:flex;
+}
+.order-md-last {
+  order:1;
+}
+.col-lg-10 {
+  flex:0 0 83.33333%;
+}
+.form-group {
+  margin-bottom:1.2rem;  /* the space between the form elements of the first part of the container */
+}
+
+
+
+
+
+
+.d-flex {
+  display:flex;  /* how the social icons and the DOM in the part 2 of the container should appear */
+}
+
+.d-md-flex { /* to arrange the part 1 and part 2 of the container */
+  display:flex;
+}
+.justify-content-end {  /* for social icons */
+  justify-content:flex-end;
+}
+.justify-content-center {  /* for whole container */
+  justify-content:center;
+}
+.align-items-center {  /* for second part of the container */
+  align-items:center;
+}
+.w-100 {  /* for the full horizontal coverage of every HTML DOM element that has it*/
+  width:100%;
+}
+.p-lg-5 {       /* needed for the white region that surrounds the part 1 of container and for part 2 of containers*/
+  padding:3rem;
+}
+.text-center {   /* needed for part 2 of container */
+  text-align:center;
+}
+
+.ftco-section {
+  /* The section that comprises two parts */
+padding:7em 0;
+}
+/* text-wrap -> first half and login-wrap -> second half*/
+
+.login-wrap {
+  /* text-wrap -> first half and login-wrap -> second half*/ 
+  background-color:white;
+  width:100%;
+}
+.text-wrap {
+  /* "Don't have an account? " */
+  background:#de5c85;
+  color:#fff;
+  width:100%;
+}
+.text-wrap .text h2 {
+  /* "Welcome to login" */
+font-weight:900;
+  color:#fff;
+}
+.form-group .label {
+  /* "USERNAME" and "PASSWORD" */
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  color:#000;
+  font-weight:700;
+}
+.form-control {
+  /* "Username","Password" and "Sign In" button */
+  height:48px;
+  width:100%;
+  background:rgba(0,0,0,0.05);
+  border-radius:50px;
+  border:transparent;
+  padding-left:20px;
+  padding-right:100px;
+  box-sizing:border-box;
+}
+.social-icon {
+  /* FB and Twitter the circle icons */
+    width:40px;
+  height:40px;
+  border-radius:50%;
+  color:#999999;
+}
+.social-icon:hover {
+  background:#f35588;
+  color:#fff
+}
+.btn {
+  /* "Sign In" and "Sign Up" */
+  cursor:pointer;
+  font-size:15px;
+  padding:10px 20px;
+  border-radius:50px;
+}
+.btn.btn-primary {
+  /* The "Sign In" button before the user hovers the button */
+    color:#fff;
+  background:#f75959;
+}
+.btn.btn-primary:hover {
+  background:#f35588;
+  color:#fff;
+}
+.btn.btn-white {
+  /* The "Sign Up" button before the user hovers the button */
+  border:1px solid #fff;
+  background:transparent;
+  color:#fff;
+}
+.btn.btn-white:hover {
+  border:1px solid transparent;
+  background:#fff;
+  color:#000;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px; font-size: 19px;
+}

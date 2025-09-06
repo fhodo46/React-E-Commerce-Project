@@ -1,0 +1,77 @@
+.footerclass{ /*The whole footer*/
+    background: #343434; width:100%; 
+}
+.footercontainer, .bottom-bar{ /* What is below "Contact Us", "Quick Links", "Opening Hours" and "Follow Us" */
+   font-family: cursive;
+   font-size: 16px; 
+   color: white; 
+
+}
+
+.footercontainer{   /*How what is below "Contact Us", "Quick Links", "Opening Hours" and "Follow Us" should appear*/
+   display: flex;
+   justify-content: center;
+   max-width: 1040px;
+ margin-left: 238px;
+}
+.footer-content{ /* How expandable what is below "Contact Us", "Quick Links", "Opening Hours" and "Follow Us" is*/
+   width: 33.3%;
+}
+.footer-h3{
+   font-size: 28px;
+   margin-top: 23px;
+   text-align: center; color: white;
+}
+.footer-content p
+{ /*How wide what is below "Contact Us", "Quick Links", "Opening Hours" and "Follow Us" should be*/
+   width:190px;
+   margin: auto;
+   padding: 7px;
+   color:white;}
+.footer-content ul{ /*This is more for the social icons as the others were affected by justify-content: center;*/
+   text-align: center;
+   padding: 0;
+}
+.list{ /*To ensure that the elements below the second column that appear below the "Quick Links" are centered*/
+   padding: 0;
+}
+.list li{   /*Gaps between each element below "Quick Links" */
+   list-style-type:none;
+   padding: 7px;
+}
+
+.social-icons li{ /*The social icons should appear horizontally and */
+   display: inline-block;
+   padding: 5px;
+   color: white;
+   font-size: 25px;}
+
+
+
+
+
+
+
+.footeranchor{ /*The <a> tag of the footer*/
+   text-decoration: none; color:white;
+}
+
+.footeranchor:hover{
+   color: #f18930;
+}
+.social-icons i:hover{
+   color: #f18930;
+}
+.bottom-bar{ /*The ZetCartopia copyrights*/
+   background: #f18930; 
+   text-align: center;
+   padding: 10px;
+   margin-top: 50px;
+}
+.bottom-bar p{ /*The text of the ZetCartopia container*/
+   color: #343434;
+   margin: 0;
+   font-size: 16px;
+   padding: 7px;
+
+}

@@ -1,0 +1,180 @@
+.ourproductscol.m3 {
+  box-sizing: border-box;
+  width: 24.99999%;
+}
+
+/* How the photos in "Our Products" appear */
+.ourproductscol.m6 {
+  box-sizing: border-box;
+  width: 49.99999%;
+}
+
+/* How the photo in "Alice Baird" and the comments of people should appear*/
+.ourproducts {
+  background-color: white;
+}
+
+/* How "Our Available Album" and "Our Products" background color should be*/
+.ourproductsbgimg1,
+.ourproductsbgimg2,
+.ourproductsbgimg3 {
+  /* The background images for "Our best commodities", "Portfolio" 
+  and "Contact Us Below"*/
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+  background-image: url("https://parametric-architecture.com/wp-content/uploads/2022/02/iris1-1339x892.jpg")
+}
+
+.ourproductswide {
+  letter-spacing: 10px;
+}
+
+/* How "Contact us below" should appear */
+
+.ourproductshoveropacity {
+  cursor: pointer;
+}
+
+.ourproductsimage {
+  max-width: 100%;
+  height: auto
+}
+
+/* How the girl photo should appear */
+
+
+
+.ourproductsdisplaycontainer {
+  position: relative
+}
+
+/* "Our best commodities", "Portfolio", "Contact us Below"*/
+
+
+.ourproductscenter {
+  width: auto;
+  text-align: center
+}
+
+/**/
+
+
+
+.ourproductscontainer:after,
+.ourproductsrow:after,
+.ourproductsrowpadding:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.ourproductscol {
+  float: left;
+  width: 100%
+}
+
+/**/
+
+
+.ourproductscontent {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px
+}
+
+/* "Our Available Album" and "Our Products" */
+.ourproductsdisplaymiddle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* The placement of all three text in the centers*/
+.ourproductsrowpadding,
+.ourproductsrowpadding>.ourproductscol {
+  padding: 0 8px;
+}
+
+/* Distance of the images from each-other*/
+
+
+.ourproductsopacity,
+.ourproductshoveropacity:hover {
+  opacity: 0.60
+}
+
+/* The other photos will be opaque if hovered*/
+.ourproductsopacityoff,
+.ourproductshoveropacityoff:hover {
+  opacity: 1
+}
+
+/* The first photo will not be opaque if hovered*/
+.ourproductsopacitymin {
+  opacity: 0.75
+}
+
+/* The images' opacity*/
+
+
+
+
+
+
+
+.ourproductsxxlarge {
+  font-size: 36px
+}
+
+/* Size of "Portfolio" and "Contact us Below" */
+
+
+.ourproductscenter {
+  text-align: center
+}
+
+.ourproductssection {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* The second half of the photos*/
+.ourproductsmarginright {
+  margin-right: 19px
+}
+
+/*Distance of the icon from "Alice Baird" */
+
+.ourproductspaddinglarge {
+  padding: 12px 24px
+}
+
+.ourproductspadding64 {
+  padding-top: 64px;
+  padding-bottom: 64px
+}
+
+
+
+
+.ourproductsblack {
+  color: #fff;
+  background-color: #000;
+}
+
+/* "Our Best Commodities" */
+
+
+
+.ourproductswhitecolor {
+  color: white
+}
+
+
+
+.hundredpercentwidthourproducts {
+  width: 100%
+}
+
